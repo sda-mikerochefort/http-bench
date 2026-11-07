@@ -1,0 +1,9 @@
+# Unpinned on purpose: the harness installs the *latest* release of each
+# library into every per-Python venv (uv pip install --upgrade) and records the
+# exact versions it resolved in the results file.
+pycurl
+httpx2[http2]
+httpcore2[http2,asyncio]
+urllib3[h2]
+requests
+aiohttp
